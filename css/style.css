@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Joan&display=swap');
+*{margin:0; padding:0;}
+
+body{
+    background-color: #D4CBCB;
+    font-family: "Joan", serif;
+
+}
+
+header{
+    width: 100%;
+    height: 380px;
+}
+
+img#banner{
+    width: 100%;
+    height: 380px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(152, 107, 152, 0.547);
+    text-align: center;
+    padding-top: 20px;
+}
+
+a.menu{
+   color: rgba(0, 0, 0, 0.669); 
+   font-size: 25px;
+   text-decoration: none;
+   padding: 10px;
+   font-family: "Inter", serif;
+   margin-right: 45px;
+   font-weight: bold;
+}
+
+a.menu:link, a.menu:visited{
+    color: rgba(0, 0, 0, 0.669);
+}
+
+a.menu:hover, a.menu:active{
+    color: blue;
+}
+
+article{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+p{
+    font-size: 1.3rem; 
+    text-align: justify; 
+    text-indent: 20px;
+    line-height: 30px;
+}
+.negrito{
+    font-weight: bold;
+}
+
+.tabela{
+    width: 100%;
+    height: 80%;
+
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color:rgb(28, 28, 83);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 30px;
+    font-size: 2rem;
+}
+
+ol#projetos{
+    background-color: rgb(192, 181, 202);
+    padding: 20px;
+    list-style: none;
+}
+
+li{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#sites{
+    padding: 20px;
+}
+
+#container{
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.card{
+    background-color: #efe6e6;
+    margin: 10px;
+    width: 25%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px #616060;
+    height: 100%;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: #b4aeae;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content p{
+    font-size: 1rem; 
+    line-height: 20px;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#interacao{
+    margin-bottom: 40px;
+}
+
+#interacao p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#container-interacao{
+    display: flex;
+    background-color: rgb(192, 181, 202) ;
+}
+
+.coluna-interacao{
+    padding: 20px;
+}
+
+.container-imagens{
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.container-imagens p{
+    color: purple;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.img-icones{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 0;
+    margin-bottom: 5px;
+   
+}
+
+video{
+   width: 600px; 
+}
+
+footer{
+    background-color: rgba(152, 107, 152, 0.547);
+    padding: 15px;
+
+}
+footer p {
+    text-align: center;
+    color:  rgba(0, 0, 0, 0.669);
+    font-weight: bold;
+}
+
+
+footer a{
+    color:  rgba(0, 0, 0, 0.669);
+    
+}
+
+footer a:hover{
+    color: blue;
+    
+}
+
+/* página de entrar em contato */
+
+#titulo{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    text-decoration: underline solid #000000c7;
+}
+
+#contato{
+    color:  rgba(3, 3, 3, 0.848);
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+}
+
+form{
+   width: 500px; 
+   margin: 0 auto;
+    height: auto;
+}
+
+input, textarea{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    box-sizing: border-box; 
+    border: 2px solid #afa6a6;
+}
+
+
+label{
+    font-family: "Joan", serif;
+    font-size: 1.2rem;
+}
+
+input.botao{
+    width: 200px;
+    margin-left: 12px;
+    background-color: rgba(137, 43, 226, 0.713);
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.botao:hover{
+    background-color: #616060;
+}
