@@ -112,6 +112,8 @@ li{
 }
 .card:hover{
     background-color: #b4aeae;
+    width: 40%;
+    height: 100%;
 }
 
 .card-content{
